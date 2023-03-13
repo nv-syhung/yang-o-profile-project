@@ -27,7 +27,7 @@ h2 {
   font-size: 48px;
   display: block;
   text-align: center;
-  letter-spacing: -0.5px;
+  letter-spacing: -1px;
 }
 
 /* Hero section */
@@ -77,7 +77,7 @@ h2 {
 }
 
 .hero h1 {
-  color: #f0fdfa;
+  color: #f9fafb;
   /* display: inline-block; */
   text-transform: capitalize;
   margin-bottom: 32px;
@@ -122,6 +122,7 @@ h2 {
 }
 .product-box h3 {
   font-size: 28px;
+  letter-spacing: -1px;
 }
 
 .product-box ul {
@@ -162,13 +163,13 @@ h2 {
 .story-container {
   border-radius: 8px;
   box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.08);
-  background-color: #134e4a;
-  color:#f0fdfa;
+  background-color: #f0fdfa;
+  color: #111827;
   
   /* grid settings */
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 400px;
+  grid-template-rows: 350px;
   align-items: center;
 }
 
@@ -180,7 +181,7 @@ h2 {
 
 .story-section .highlight {
   font-weight: 600;
-  color: #5eead4;
+  color: #134e4a;
 }
 
 .story-container img {
