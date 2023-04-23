@@ -43,7 +43,7 @@ h3 {
       rgba(17, 24, 39, 0.6),
       rgba(17, 24, 39, 0.6)
     ),
-    url("./img/hero-backround.jpg");
+    url("../img/hero-backround.jpg");
   position: relative;
   text-align: center;
 }
