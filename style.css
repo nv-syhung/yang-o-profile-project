@@ -29,6 +29,11 @@ h2 {
   letter-spacing: -1.5px;
 }
 
+h3 {
+  font-size: 28px;
+  letter-spacing: -0.5px;
+}
+
 /* Hero section */
 .hero {
   color: #e5e7eb;
@@ -118,11 +123,6 @@ h2 {
   padding: 32px;
 }
 
-.product-box h3 {
-  font-size: 28px;
-  letter-spacing: -1px;
-}
-
 .product-box ul {
   list-style-type: none;
   font-size: 18px;
@@ -167,19 +167,25 @@ h2 {
   /* grid settings */
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 350px;
+  grid-template-rows: 320px;
   align-items: center;
 }
 
-.story-section p {
-  font-size: 18px;
+.story-container div {
+  display: block;
+  font-size: 16px;
   line-height: 1.6;
   padding: 0 52px;
 }
 
-.story-section .highlight {
-  font-weight: 600;
+.story-container h3 {
   color: #134e4a;
+  margin-bottom: 12px;
+}
+
+.story-container .highlight {
+  font-weight: 600;
+  color: #115e59;
 }
 
 .story-container img {
@@ -222,8 +228,6 @@ h2 {
 .contacts-section h3 {
   color: #f9fafb;
   margin-bottom: 8px;
-  font-size: 28px;
-  letter-spacing: -0.5px;
 }
 
 .contacts-links {
