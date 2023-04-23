@@ -202,8 +202,8 @@ h2 {
 
 .contacts-section {
   background-color: #134e4a;
-  color: #f9fafb;
-  font-size: 18px;
+  color: #d1d5db;
+  font-size: 16px;
   padding: 32px;
 
   /* flex settings */
@@ -229,7 +229,17 @@ h2 {
 .contacts-links {
   display: flex;
   gap: 32px;
-  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.contacts-links a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #f9fafb;
+
+  display: flex;
+  gap: 6px;
+  align-items: center;
 }
 
 .contacts-section svg {
