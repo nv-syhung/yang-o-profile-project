@@ -138,8 +138,7 @@ h3 {
   align-items: center;
 }
 
-.product-box .btn:link,
-.product-box .btn:visited {
+.product-box .btn {
   font-family: "Inter", sans-serif;
   font-size: 18px;
   text-decoration: none;
@@ -147,9 +146,22 @@ h3 {
   color: #fff;
   display: inline-block;
   text-transform: uppercase;
-  background-color: #134e4a;
   border-radius: 500px;
   padding: 8px 20px;
+}
+
+.product-box .btn:link,
+.product-box .btn:visited {
+  background-color: #134e4a;
+}
+
+.product-box .btn:hover {
+  background-color: #0f766e;
+
+}
+
+.product-box .btn:active {
+  background-color: #134e4a;
 }
 
 /* Our story section */
@@ -215,7 +227,7 @@ h3 {
   /* flex settings */
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 10px;
   justify-content: center;
   align-items: center;
 }
@@ -227,13 +239,14 @@ h3 {
 
 .contacts-section h3 {
   color: #f9fafb;
-  margin-bottom: 8px;
+  margin-bottom: 32px;
+  font-size: 32px;
 }
 
 .contacts-links {
   display: flex;
   gap: 32px;
-  margin-bottom: 6px;
+  margin-bottom: 10px;
 }
 
 .contacts-links a {
@@ -246,7 +259,13 @@ h3 {
   align-items: center;
 }
 
-.contacts-section svg {
+.contacts-section a svg {
   width: 38px;
   height: 38px;
+}
+
+.contacts-section span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
