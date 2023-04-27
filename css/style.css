@@ -34,56 +34,39 @@ h3 {
   letter-spacing: -0.5px;
 }
 
+/* navbar */
+.navbar {
+  background-color: #134e4a;
+}
+
+.navbar-brand img {
+  width: 120px;
+  height: auto;
+}
+
+.navbar-nav {
+  gap: 0.3em;
+}
+
 /* Hero section */
 .hero {
+  text-align: center;
   color: #e5e7eb;
-  height: 100vh;
+
+  height: 70vh;
   background-size: cover;
   background-image: linear-gradient(
       rgba(17, 24, 39, 0.6),
       rgba(17, 24, 39, 0.6)
     ),
-    url("./img/hero-backround.jpg");
-  position: relative;
-  text-align: center;
-}
-
-.hero nav {
-  width: 1200px;
-  height: 50%;
-  margin: 0 auto;
-
-  position: relative;
-}
-
-.container {
-  width: 1200px;
-  margin: 0 auto;
-}
-
-.hero div.container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.hero .brand-logo {
-  width: 320px;
-  height: auto;
-
-  position: absolute;
-  top: 15%;
-  left: 50%;
-  transform: translate(-50%, 0);
+    url("../img/hero-backround.jpg");
 }
 
 .hero h1 {
   color: #f9fafb;
-  /* display: inline-block; */
   text-transform: capitalize;
+  font-size: 4.5em;
   margin-bottom: 32px;
-  font-size: 68px;
   letter-spacing: -2px;
   line-height: 1.1;
   font-weight: 700;
@@ -138,7 +121,7 @@ h3 {
   align-items: center;
 }
 
-.product-box .btn {
+.product-box .shop-btn {
   font-family: "Inter", sans-serif;
   font-size: 18px;
   text-decoration: none;
@@ -147,20 +130,19 @@ h3 {
   display: inline-block;
   text-transform: uppercase;
   border-radius: 500px;
-  padding: 8px 20px;
+  padding: 0.25em 0.9em;
 }
 
-.product-box .btn:link,
-.product-box .btn:visited {
+.product-box .shop-btn:link,
+.product-box .shop-btn:visited {
   background-color: #134e4a;
 }
 
-.product-box .btn:hover {
+.product-box .shop-btn:hover {
   background-color: #0f766e;
-
 }
 
-.product-box .btn:active {
+.product-box .shop-btn:active {
   background-color: #134e4a;
 }
 
