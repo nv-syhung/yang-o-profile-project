@@ -20,7 +20,7 @@ section {
   padding: 48px 0;
 }
 
-h2 {
+section h2 {
   color: #134e4a;
   margin-bottom: 38px;
   font-size: 48px;
@@ -80,12 +80,11 @@ h3 {
 /* Products section */
 
 .products-section .products-grid {
-  width: 1050px;
   margin: 0 auto;
 
   /* grid settings */
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 52px;
 }
 
@@ -113,6 +112,7 @@ h3 {
   display: flex;
   flex-direction: column;
   gap: 14px;
+  padding: 0;
 }
 
 .product-box li {
