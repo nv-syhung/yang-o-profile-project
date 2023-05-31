@@ -30,7 +30,6 @@ section h2 {
 }
 
 h3 {
-  font-size: 28px;
   letter-spacing: -0.5px;
 }
 
@@ -102,7 +101,11 @@ h3 {
 }
 
 .products-section .product-box {
-  padding: 32px;
+  padding: 1.3rem;
+}
+
+.product-box h3 {
+font-size: 1.7rem;
 }
 
 .product-box ul {
@@ -116,6 +119,7 @@ h3 {
 }
 
 .product-box li {
+  font-size: 1rem;
   display: flex;
   gap: 8px;
   align-items: center;
