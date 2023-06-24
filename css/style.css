@@ -105,13 +105,13 @@ h3 {
 }
 
 .product-box h3 {
-font-size: 1.7rem;
+  font-size: 1.7rem;
 }
 
 .product-box ul {
   list-style-type: none;
   font-size: 18px;
-  margin: 18px 0 52px 0;
+  margin: 18px 0 38px 0;
   display: flex;
   flex-direction: column;
   gap: 14px;
@@ -219,8 +219,9 @@ font-size: 1.7rem;
 }
 
 .footer-logo {
-  width: 64px;
+  width: 200px;
   margin-bottom: 32px;
+  margin-left: 17px;
 }
 
 .contacts-section h3 {
@@ -250,8 +251,13 @@ font-size: 1.7rem;
   height: 38px;
 }
 
+.contacts-section span:first-of-type {
+  align-self: center;
+  margin-bottom: 12px;
+}
+
 .contacts-section span {
+  align-self: flex-start;
   display: flex;
-  align-items: center;
   gap: 8px;
 }
