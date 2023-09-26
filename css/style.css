@@ -47,6 +47,10 @@ h3 {
   gap: 0.3em;
 }
 
+.language-switch {
+  margin-right: 0.8em;
+}
+
 /* Hero section */
 .hero {
   text-align: center;
@@ -74,6 +78,58 @@ h3 {
 .hero p {
   font-size: 18px;
   font-weight: 500;
+}
+
+/* story section */
+
+.story-section {
+  background-color: #f3f4f6;
+}
+
+.story-container {
+  border-radius: 8px;
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.08);
+  background-color: #f0fdfa;
+  color: #111827;
+
+  /* grid settings */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 350px;
+  align-items: center;
+}
+
+.story-container div {
+  display: block;
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 20px 52px;
+}
+
+.story-container h3 {
+  color: #134e4a;
+  margin-bottom: 12px;
+}
+
+.story-container .highlight {
+  font-weight: 600;
+  color: #115e59;
+}
+
+.story-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0 8px 8px 0;
+  aspect-ratio: 3 / 2;
+}
+
+.story-container:last-child img {
+  border-radius: 8px 0 0 8px;
+}
+
+.story-container:last-child {
+  margin-top: 48px;
 }
 
 /* Products section */
@@ -148,58 +204,6 @@ h3 {
 
 .product-box .shop-btn:active {
   background-color: #134e4a;
-}
-
-/* Our story section */
-
-.story-section {
-  background-color: #f3f4f6;
-}
-
-.story-container {
-  border-radius: 8px;
-  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.08);
-  background-color: #f0fdfa;
-  color: #111827;
-
-  /* grid settings */
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 320px;
-  align-items: center;
-}
-
-.story-container div {
-  display: block;
-  font-size: 16px;
-  line-height: 1.6;
-  padding: 20px 52px;
-}
-
-.story-container h3 {
-  color: #134e4a;
-  margin-bottom: 12px;
-}
-
-.story-container .highlight {
-  font-weight: 600;
-  color: #115e59;
-}
-
-.story-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 0 8px 8px 0;
-  aspect-ratio: 3 / 2;
-}
-
-.story-container:last-child img {
-  border-radius: 8px 0 0 8px;
-}
-
-.story-container:last-child {
-  margin-top: 48px;
 }
 
 /* Footer - contacts section */
